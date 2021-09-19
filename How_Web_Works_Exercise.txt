@@ -1,0 +1,13 @@
+1. Hyper Text Transfer Protocol; It determines how browsers and servers communicate
+2. A URL is a Uniform Resource Locator that contains information pertaining to a particular website on the internet
+3. DNS is Domain Name System; It is responsible for turning hostnames into IP adresses
+4. A query string is a set of extra information at the end of a URL; multiple arguments can be given separated by &
+5. The two HTTP verbs are GET and POST requests; GET requests are used for retrieving information from a server,
+    POST requests are used for changing or updating data on a server 
+6. An HTTP requests is a request sent to a server by your local browsers
+7. An HTTP response is the response sent back from a server after a request has been made
+8. An HTTP header contains extra information about the specific request or response such as content-type, cache, etc...
+9. The process that occurs is first your browser turns the URL into an IP address using DNS, then your browser sends a request to a server with that IP address, 
+    the server communicates with a database to retrieve the unformation that was requested, the database sends the information back to the server which is then 
+    is sent back to the browser, the browser then generated a DOM for the user to view, then the browser makes individual requests to other servers for other item needed
+        such as images, javascript, css, etc...
